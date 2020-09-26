@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+</html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Local Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="section">
+      <h1>Weather App</h1>
+          <p class="time"> <span id="mytime"></span> </p>
+          <script>
+            document.getElementById("mytime").innerHTML = new Date().toLocaleTimeString();
+            </script>
+            <p class="date"> <span id="mydate"></span></p>
+            <script>
+              document.getElementById("mydate").innerHTML = new Date().toDateString();
+              </script>
+            <p id="location"></p>
+        <p>
+          <img id="iconHere" src="" >
+        <span id="temperature"></span>
+        <span id="unit"></span>
+      </p>
+        <p id="description"></p>
+      <button id="celsius" class="unit - btn" onclick="convertToCelsius()"  disabled>°C</button>
+      <button id="fahrinheit" class="unit - btn" onclick="convertToFahrinheit()">°F</button>
+    </section>
+    <script src="main.js"></script>
+  </body>
+</html>

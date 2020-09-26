@@ -1,0 +1,45 @@
+html,
+body {
+  background: url(https://hdwallsource.com/img/2014/9/earth-wallpaper-23095-23745-hd-wallpapers.jpg)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  font-size: large;
+  padding-top: 10px;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+#temperature,
+#unit {
+  font-size: 80px;
+}
+#celsius {
+  height: 50px;
+  width: 50px;
+  background: #ddd;
+  border: 2px solid #aaa;
+  border-radius: 25%;
+  overflow: hidden;
+  cursor: pointer;
+}
+#fahrinheit {
+  height: 50px;
+  width: 50px;
+  background: #ddd;
+  border: 2px solid #aaa;
+  border-radius: 25%;
+  overflow: hidden;
+  cursor: pointer;
+}
+.time,
+.date {
+  font-size: 0.8em;
+  text-align: center;
+}
+#iconHere {
+  margin-top: 10 px;
+}
